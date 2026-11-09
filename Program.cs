@@ -59,3 +59,13 @@
 //     return s;
 // }
 
+// class task 7
+
+int a = int.Parse(Console.ReadLine());
+Console.WriteLine(CountDigits(a));
+int CountDigits(int a)
+{
+    int s=0;
+    for(int i=a; i>0; i/=10)s++;
+    return s;
+}

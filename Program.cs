@@ -44,6 +44,18 @@
 
 // class task 6
 
-int a = int.Parse(Console.ReadLine());
+// int a = int.Parse(Console.ReadLine());
 
-Console.WriteLine(CountDigits(int a));
+// System.Console.WriteLine(ReverseNumber(a));
+
+// int ReverseNumber(int a)
+// {
+//     int s = 0;
+//     while (a > 0)
+//     {
+//         s = s * 10 + a % 10;
+//         a/= 10;
+//     }
+//     return s;
+// }
+
